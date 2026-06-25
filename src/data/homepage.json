@@ -1,0 +1,130 @@
+{
+  "theme": {
+    "primary": "#FF9933",
+    "background": "#FFF5E6"
+  },
+  "campaign": "back_to_school",
+  "sections": [
+    {
+      "id": "s1",
+      "type": "BANNER_HERO",
+      "data": {
+        "imageUrl": "https://picsum.photos/400/200",
+        "title": "Back to School Sale!",
+        "subtitle": "Up to 50% off",
+        "action": {
+          "type": "DEEP_LINK",
+          "payload": {
+            "url": "/sale"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "type": "DYNAMIC_COLLECTION",
+      "data": {
+        "title": "Summer Essentials",
+        "items": [
+          {
+            "id": "p1",
+            "name": "Water Bottle",
+            "price": 299,
+            "imageUrl": "https://picsum.photos/100/100?1",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "p1"
+              }
+            }
+          },
+          {
+            "id": "p2",
+            "name": "Sunscreen",
+            "price": 199,
+            "imageUrl": "https://picsum.photos/100/100?2",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "p2"
+              }
+            }
+          },
+          {
+            "id": "p3",
+            "name": "Beach Hat",
+            "price": 399,
+            "imageUrl": "https://picsum.photos/100/100?3",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "p3"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "type": "PRODUCT_GRID_2X2",
+      "data": {
+        "products": [
+          {
+            "id": "g1",
+            "name": "Lunchbox",
+            "price": 499,
+            "imageUrl": "https://picsum.photos/100/100?4",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "g1"
+              }
+            }
+          },
+          {
+            "id": "g2",
+            "name": "School Bag",
+            "price": 999,
+            "imageUrl": "https://picsum.photos/100/100?5",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "g2"
+              }
+            }
+          },
+          {
+            "id": "g3",
+            "name": "Pencil Kit",
+            "price": 149,
+            "imageUrl": "https://picsum.photos/100/100?6",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "g3"
+              }
+            }
+          },
+          {
+            "id": "g4",
+            "name": "Water Colors",
+            "price": 249,
+            "imageUrl": "https://picsum.photos/100/100?7",
+            "action": {
+              "type": "ADD_TO_CART",
+              "payload": {
+                "id": "g4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "type": "NEW_COMPONENT_V2",
+      "data": {}
+    }
+  ]
+}
